@@ -6,18 +6,6 @@
 
 **One command to run:** `npm start` — clean Month view, zero config, data survives reinstalls.
 
-![Demo](docs/demo.gif)
-
-### ✨ Why this calendar?
-
-- **Recurrence that just works** — `none / daily / weekly (multi-weekday) / monthly / yearly` with end-date or forever, clamped to month length (Jan 31 → Feb 28)
-- **Color Types** — `Work / Personal / Other` by default; create, **rename & recolor inline**, delete → falls back to Other
-- **Instant Search** — filter grid & day pane as you type (`/` to focus, `Esc` to clear)
-- **Google-Calendar style sidebar** — click to hide/show types, remembered
-- **Keyboard first** — `←↑↓→` move, `Enter` add, `N` new, `T` today, `PgUp/PgDn` month, `/` search
-- **Safe storage** — `events.json`/`types.json` in `app.getPath('userData')` (not beside app) + auto-migration
-
----
 
 ### 🚀 Quick Start
 
@@ -57,8 +45,6 @@ npm start
 ### 🌟 Love it? Star it & share
 
 - ⭐ Star this repo — helps others discover it
-- 🐦 Tweet: “Found a minimal keyboard-driven Electron calendar with weekly multi-day repeats and instant search — `npm start` and go! https://github.com/sempervivum-burningstar/calendar-app”
-- 💬 Post to `r/electron`, `r/javascript`, Dev.to with GIF demo
 - 🤝 PRs / Issues welcome — see `CONTRIBUTING.md`
 
 ---
